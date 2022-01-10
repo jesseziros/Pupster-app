@@ -14,7 +14,10 @@ function App() {
       <div>
         <Navbar />
         <Wrapper>
-          {/*create and insert routes here*/}
+          <Route exact path="/" component={About}/>
+          <Route path="/about" component={About}/>
+          <Route path="/discover" component={Discover}/>
+          <Route path="search" component={Search}/>
         </Wrapper>
         <Footer />
       </div>
