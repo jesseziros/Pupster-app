@@ -14,10 +14,14 @@ function App() {
       <div>
         <Navbar />
         <Wrapper>
+ jesse-branch
           <Route exact path="/" component={About}/>
           <Route path="/about" component={About}/>
           <Route path="/discover" component={Discover}/>
           <Route path="search" component={Search}/>
+
+ 
+ main
         </Wrapper>
         <Footer />
       </div>
